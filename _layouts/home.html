@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h2>Our Projects</h2>
+    {% for post in site.posts %}
+        <h3>{{ post.title | escape }}</h3>
+        <div class="content">
+            {{ post.content }}
+        </div>
+    {% endfor %}
+</div>

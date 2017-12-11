@@ -1,0 +1,101 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body {
+    background: linear-gradient(0, #000, #4a378c);
+    color: white;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-top: 50px !important;
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center !important;
+}
+
+body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: white;
+}
+
+.credits-top {
+    font-size: 0.80em;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.5);
+
+  }
+  .download-btn {
+
+    color: white;
+    text-decoration:none;
+    background: #541B35;
+    
+    padding-top: 13px !important;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    padding-bottom: 13px !important;
+    
+    border-radius: 100px;
+    font-weight: bold;
+
+  }
+
+  .credits-bottom {
+    font-size: 0.9em;
+    padding-top: 100px !important;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.5);
+
+  }
+
+  .installation {
+    display: inline-block;
+    padding: 30px;
+    padding-left: 50px;
+    padding-top: 5px !important;
+    text-align: left;
+    opacity: 0.9;
+    font-size: 0.9em;
+  }
+
+
+  .dotted-list {
+    display: inline-block;
+    padding: 30px;
+    padding-left: 50px;
+    padding-top: 5px !important;
+    text-align: left;
+    opacity: 0.9;
+    list-style-type: circle;
+    font-size: 0.8em;
+  }
+
+  .warning-message {
+    font-size: 0.7em;
+
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+.twitter-link {
+    color: rgba(255, 255, 255, 0.5);
+      text-decoration: underline;
+  }
+  
+  .content p {
+  text-align: justify;
+  text-justify: inter-word;
+  }
